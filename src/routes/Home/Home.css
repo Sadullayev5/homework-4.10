@@ -1,0 +1,48 @@
+
+
+.home-container {
+    padding: 20px;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .quotes-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .quote-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .quote-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .quote-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .quote-author {
+    font-size: 1rem;
+    color: #888;
+    text-align: right;
+  }
+  

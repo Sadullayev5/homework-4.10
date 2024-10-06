@@ -1,0 +1,51 @@
+.profile-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-info {
+    margin-top: 20px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid gray;
+  }
+  
+  .profile-name, .profile-email {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333; 
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    color: #333; 
+  }
+
+  .logout-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  
